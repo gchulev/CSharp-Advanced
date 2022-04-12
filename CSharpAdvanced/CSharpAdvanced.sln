@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Print Even Numbers", "5.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Supermarket", "6. Supermarket\6. Supermarket.csproj", "{7B2F2A57-DD9C-4DA5-81A8-BCA8C4ACC121}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Hot Potato", "7. Hot Potato\7. Hot Potato.csproj", "{EB6227D1-4B42-47E8-81E3-310069D91C9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7B2F2A57-DD9C-4DA5-81A8-BCA8C4ACC121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B2F2A57-DD9C-4DA5-81A8-BCA8C4ACC121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B2F2A57-DD9C-4DA5-81A8-BCA8C4ACC121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6227D1-4B42-47E8-81E3-310069D91C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6227D1-4B42-47E8-81E3-310069D91C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6227D1-4B42-47E8-81E3-310069D91C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6227D1-4B42-47E8-81E3-310069D91C9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
