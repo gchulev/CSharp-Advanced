@@ -7,31 +7,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Strings", "Reverse 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack Sum", "Stack Sum\Stack Sum.csproj", "{1B6505F5-930C-42DF-AAFC-8A89D423F9F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Simple Calculator", "3. Simple Calculator\3. Simple Calculator.csproj", "{C209A2A2-A1F3-4C94-A78D-45E418DB0142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Simple Calculator", "3. Simple Calculator\3. Simple Calculator.csproj", "{C209A2A2-A1F3-4C94-A78D-45E418DB0142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matching Brackets", "4. Matching Brackets\4. Matching Brackets.csproj", "{753FC638-76D1-4C54-A70A-E0E86C476070}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Matching Brackets", "4. Matching Brackets\4. Matching Brackets.csproj", "{753FC638-76D1-4C54-A70A-E0E86C476070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Print Even Numbers", "5. Print Even Numbers\5. Print Even Numbers.csproj", "{85D7C3DA-4242-4B5A-AD2D-E419F5556A52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Print Even Numbers", "5. Print Even Numbers\5. Print Even Numbers.csproj", "{85D7C3DA-4242-4B5A-AD2D-E419F5556A52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Supermarket", "6. Supermarket\6. Supermarket.csproj", "{7B2F2A57-DD9C-4DA5-81A8-BCA8C4ACC121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Supermarket", "6. Supermarket\6. Supermarket.csproj", "{7B2F2A57-DD9C-4DA5-81A8-BCA8C4ACC121}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Hot Potato", "7. Hot Potato\7. Hot Potato.csproj", "{EB6227D1-4B42-47E8-81E3-310069D91C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Hot Potato", "7. Hot Potato\7. Hot Potato.csproj", "{EB6227D1-4B42-47E8-81E3-310069D91C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Traffic Jam", "8. Traffic Jam\8. Traffic Jam.csproj", "{CABAF271-1412-4B97-965B-00C1245DC40E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. Traffic Jam", "8. Traffic Jam\8. Traffic Jam.csproj", "{CABAF271-1412-4B97-965B-00C1245DC40E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Basic Stack Operations", "1. Basic Stack Operations\1. Basic Stack Operations.csproj", "{7A7D630D-20D5-45A7-935D-1A457A860D90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Basic Stack Operations", "1. Basic Stack Operations\1. Basic Stack Operations.csproj", "{7A7D630D-20D5-45A7-935D-1A457A860D90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Basic Queue Operations", "02. Basic Queue Operations\02. Basic Queue Operations.csproj", "{E025336F-31A0-485A-B54E-E3B22B03EE1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Basic Queue Operations", "02. Basic Queue Operations\02. Basic Queue Operations.csproj", "{E025336F-31A0-485A-B54E-E3B22B03EE1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Maximum and Minimum Element", "03. Maximum and Minimum Element\03. Maximum and Minimum Element.csproj", "{AA39EFC6-1ACB-4228-94FA-F537E0C58422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Maximum and Minimum Element", "03. Maximum and Minimum Element\03. Maximum and Minimum Element.csproj", "{AA39EFC6-1ACB-4228-94FA-F537E0C58422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Fast Food", "04. Fast Food\04. Fast Food.csproj", "{32A9DA8B-3791-4F8D-9D11-36F3F60DA222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Fast Food", "04. Fast Food\04. Fast Food.csproj", "{32A9DA8B-3791-4F8D-9D11-36F3F60DA222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Fashion Boutique", "05. Fashion Boutique\05. Fashion Boutique.csproj", "{29D71E3C-3FE5-4580-831C-044A1CB4A3E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Fashion Boutique", "05. Fashion Boutique\05. Fashion Boutique.csproj", "{29D71E3C-3FE5-4580-831C-044A1CB4A3E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Songs Queue", "06. Songs Queue\06. Songs Queue.csproj", "{9331D73B-92BA-4D6B-8049-DBFC31756F31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Songs Queue", "06. Songs Queue\06. Songs Queue.csproj", "{9331D73B-92BA-4D6B-8049-DBFC31756F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Truck Tour", "07. Truck Tour\07. Truck Tour.csproj", "{66371519-F7DD-468B-98AD-6CBC947E27CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Truck Tour", "07. Truck Tour\07. Truck Tour.csproj", "{66371519-F7DD-468B-98AD-6CBC947E27CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Balanced Parenthesis", "08. Balanced Parenthesis\08. Balanced Parenthesis.csproj", "{19EC656F-18D0-47C7-8B4F-E532FA3B3CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Simple Text Editor", "09. Simple Text Editor\09. Simple Text Editor.csproj", "{63D9CB14-ABE0-48A8-A3BD-3434A11E5C95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{66371519-F7DD-468B-98AD-6CBC947E27CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66371519-F7DD-468B-98AD-6CBC947E27CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66371519-F7DD-468B-98AD-6CBC947E27CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EC656F-18D0-47C7-8B4F-E532FA3B3CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EC656F-18D0-47C7-8B4F-E532FA3B3CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EC656F-18D0-47C7-8B4F-E532FA3B3CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EC656F-18D0-47C7-8B4F-E532FA3B3CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D9CB14-ABE0-48A8-A3BD-3434A11E5C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D9CB14-ABE0-48A8-A3BD-3434A11E5C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D9CB14-ABE0-48A8-A3BD-3434A11E5C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D9CB14-ABE0-48A8-A3BD-3434A11E5C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
