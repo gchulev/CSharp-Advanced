@@ -33,23 +33,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Songs Queue", "06. Song
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Truck Tour", "07. Truck Tour\07. Truck Tour.csproj", "{66371519-F7DD-468B-98AD-6CBC947E27CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Balanced Parenthesis", "08. Balanced Parenthesis\08. Balanced Parenthesis.csproj", "{19EC656F-18D0-47C7-8B4F-E532FA3B3CE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Balanced Parenthesis", "08. Balanced Parenthesis\08. Balanced Parenthesis.csproj", "{19EC656F-18D0-47C7-8B4F-E532FA3B3CE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Simple Text Editor", "09. Simple Text Editor\09. Simple Text Editor.csproj", "{63D9CB14-ABE0-48A8-A3BD-3434A11E5C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Simple Text Editor", "09. Simple Text Editor\09. Simple Text Editor.csproj", "{63D9CB14-ABE0-48A8-A3BD-3434A11E5C95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Diagonal Difference", "1. Diagonal Difference\1. Diagonal Difference.csproj", "{B62012D5-86CF-488E-9202-829F25FED3AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Diagonal Difference", "1. Diagonal Difference\1. Diagonal Difference.csproj", "{B62012D5-86CF-488E-9202-829F25FED3AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Squares in Matrix", "2. Squares in Matrix\2. Squares in Matrix.csproj", "{6529F22B-D4F2-4CA7-9552-987A16045DF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Squares in Matrix", "2. Squares in Matrix\2. Squares in Matrix.csproj", "{6529F22B-D4F2-4CA7-9552-987A16045DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Maximal Sum", "3. Maximal Sum\3. Maximal Sum.csproj", "{7EC8B940-DD18-4BB0-B473-934163A4F5C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Maximal Sum", "3. Maximal Sum\3. Maximal Sum.csproj", "{7EC8B940-DD18-4BB0-B473-934163A4F5C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matrix Shuffling", "4. Matrix Shuffling\4. Matrix Shuffling.csproj", "{123DB498-FAFE-4B2E-AB81-F3B03DFEAFDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Matrix Shuffling", "4. Matrix Shuffling\4. Matrix Shuffling.csproj", "{123DB498-FAFE-4B2E-AB81-F3B03DFEAFDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Snake Moves", "5. Snake Moves\5. Snake Moves.csproj", "{6FC512EB-8445-4C57-B8E5-DE230C203655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Snake Moves", "5. Snake Moves\5. Snake Moves.csproj", "{6FC512EB-8445-4C57-B8E5-DE230C203655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Jagged Array Manipulator", "6. Jagged Array Manipulator\6. Jagged Array Manipulator.csproj", "{22F006EC-65A8-42DA-B951-11AEAC5D4BA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Jagged Array Manipulator", "6. Jagged Array Manipulator\6. Jagged Array Manipulator.csproj", "{22F006EC-65A8-42DA-B951-11AEAC5D4BA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Knight Game", "7. Knight Game\7. Knight Game.csproj", "{5EB4A9A7-02F7-4658-ADD8-0E58C5E70A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Knight Game", "7. Knight Game\7. Knight Game.csproj", "{5EB4A9A7-02F7-4658-ADD8-0E58C5E70A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Unique Usernames", "01. Unique Usernames\01. Unique Usernames.csproj", "{20C644A1-7EA6-4EC6-98B7-1A458D97F944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{43BFFA14-9822-4BEA-985D-C94928E86562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{5EB4A9A7-02F7-4658-ADD8-0E58C5E70A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EB4A9A7-02F7-4658-ADD8-0E58C5E70A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EB4A9A7-02F7-4658-ADD8-0E58C5E70A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C644A1-7EA6-4EC6-98B7-1A458D97F944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C644A1-7EA6-4EC6-98B7-1A458D97F944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C644A1-7EA6-4EC6-98B7-1A458D97F944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C644A1-7EA6-4EC6-98B7-1A458D97F944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BFFA14-9822-4BEA-985D-C94928E86562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BFFA14-9822-4BEA-985D-C94928E86562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BFFA14-9822-4BEA-985D-C94928E86562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BFFA14-9822-4BEA-985D-C94928E86562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
