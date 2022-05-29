@@ -51,19 +51,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Jagged Array Manipulator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Knight Game", "7. Knight Game\7. Knight Game.csproj", "{5EB4A9A7-02F7-4658-ADD8-0E58C5E70A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Unique Usernames", "01. Unique Usernames\01. Unique Usernames.csproj", "{20C644A1-7EA6-4EC6-98B7-1A458D97F944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Unique Usernames", "01. Unique Usernames\01. Unique Usernames.csproj", "{20C644A1-7EA6-4EC6-98B7-1A458D97F944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{43BFFA14-9822-4BEA-985D-C94928E86562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{43BFFA14-9822-4BEA-985D-C94928E86562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Periodic Table", "03. Periodic Table\03. Periodic Table.csproj", "{94F6E0CC-9E47-48D8-BEE4-6BFBC9172582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Periodic Table", "03. Periodic Table\03. Periodic Table.csproj", "{94F6E0CC-9E47-48D8-BEE4-6BFBC9172582}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Even Times", "04. Even Times\04. Even Times.csproj", "{B10016FB-7D43-4B50-9937-89364A3D7799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Even Times", "04. Even Times\04. Even Times.csproj", "{B10016FB-7D43-4B50-9937-89364A3D7799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Count Symbols", "05. Count Symbols\05. Count Symbols.csproj", "{8D67D391-2D9A-4C17-925F-B856F6D0D1AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Count Symbols", "05. Count Symbols\05. Count Symbols.csproj", "{8D67D391-2D9A-4C17-925F-B856F6D0D1AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Wardrobe", "06. Wardrobe\06. Wardrobe.csproj", "{54226420-DAA9-4CFE-AE45-D78A9DEC89A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Wardrobe", "06. Wardrobe\06. Wardrobe.csproj", "{54226420-DAA9-4CFE-AE45-D78A9DEC89A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenLines", "Even Lines\EvenLines.csproj", "{3E063A31-79DF-4F36-B13D-CA6D9A8B219A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenLines", "EvenLines\EvenLines.csproj", "{D07AC5D6-611B-48F1-9EFF-C0D2E4522CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineNumbers", "LineNumbers\LineNumbers.csproj", "{89B0A937-0F5F-43F7-BBD5-074A6F0A1958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,10 +193,14 @@ Global
 		{54226420-DAA9-4CFE-AE45-D78A9DEC89A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54226420-DAA9-4CFE-AE45-D78A9DEC89A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54226420-DAA9-4CFE-AE45-D78A9DEC89A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E063A31-79DF-4F36-B13D-CA6D9A8B219A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E063A31-79DF-4F36-B13D-CA6D9A8B219A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E063A31-79DF-4F36-B13D-CA6D9A8B219A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E063A31-79DF-4F36-B13D-CA6D9A8B219A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07AC5D6-611B-48F1-9EFF-C0D2E4522CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07AC5D6-611B-48F1-9EFF-C0D2E4522CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07AC5D6-611B-48F1-9EFF-C0D2E4522CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07AC5D6-611B-48F1-9EFF-C0D2E4522CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B0A937-0F5F-43F7-BBD5-074A6F0A1958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B0A937-0F5F-43F7-BBD5-074A6F0A1958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B0A937-0F5F-43F7-BBD5-074A6F0A1958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B0A937-0F5F-43F7-BBD5-074A6F0A1958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
