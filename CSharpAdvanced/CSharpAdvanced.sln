@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateParty!", "Predicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePartyReservationFilterModule", "ThePartyReservationFilterModule\ThePartyReservationFilterModule.csproj", "{E8FA0ECA-A927-4491-9313-92F658CB2901}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriFunction", "TriFunction\TriFunction.csproj", "{5C1C5D48-8788-479A-9FCE-B07F5DA38A0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{E8FA0ECA-A927-4491-9313-92F658CB2901}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8FA0ECA-A927-4491-9313-92F658CB2901}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8FA0ECA-A927-4491-9313-92F658CB2901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1C5D48-8788-479A-9FCE-B07F5DA38A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1C5D48-8788-479A-9FCE-B07F5DA38A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1C5D48-8788-479A-9FCE-B07F5DA38A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1C5D48-8788-479A-9FCE-B07F5DA38A0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
