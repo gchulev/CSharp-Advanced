@@ -13,7 +13,7 @@ namespace DefiningClasses
 
         public string Name
         {
-            get 
+            get
             {
                 return _name;
             }
@@ -34,16 +34,21 @@ namespace DefiningClasses
             }
         }
 
-        public Person(string name, int age)
-        {
-            this.Name = name;
-            this.Age = age;
-        }
-
         public Person()
         {
-            this.Name = _name;
-            this.Age = _age;
+            Name = "No name";
+            Age = 1;
+        }
+        public Person(int age)
+        {
+            Name = "No name";
+            Age = age;
+        }
+
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
         }
     }
 }

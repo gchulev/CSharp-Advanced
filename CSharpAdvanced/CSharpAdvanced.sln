@@ -95,7 +95,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePartyReservationFilterMo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriFunction", "TriFunction\TriFunction.csproj", "{5C1C5D48-8788-479A-9FCE-B07F5DA38A0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefineAClassPerson", "DefineAClassPerson\DefineAClassPerson.csproj", "{CCE2AB15-54F4-4BDC-A501-D83ED678BB19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses", "DefineAClassPerson\DefiningClasses.csproj", "{CCE2AB15-54F4-4BDC-A501-D83ED678BB19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
