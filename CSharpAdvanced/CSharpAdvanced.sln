@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses", "DefineAC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateModifier", "DateModifier\DateModifier.csproj", "{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedRacing", "SpeedRacing\SpeedRacing.csproj", "{9CD795AE-A451-46CF-A9E6-FDF58739C9AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD795AE-A451-46CF-A9E6-FDF58739C9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD795AE-A451-46CF-A9E6-FDF58739C9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD795AE-A451-46CF-A9E6-FDF58739C9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD795AE-A451-46CF-A9E6-FDF58739C9AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
