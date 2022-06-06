@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriFunction", "TriFunction\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses", "DefineAClassPerson\DefiningClasses.csproj", "{CCE2AB15-54F4-4BDC-A501-D83ED678BB19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateModifier", "DateModifier\DateModifier.csproj", "{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +293,10 @@ Global
 		{CCE2AB15-54F4-4BDC-A501-D83ED678BB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE2AB15-54F4-4BDC-A501-D83ED678BB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCE2AB15-54F4-4BDC-A501-D83ED678BB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3C5343-6F85-484B-9C4D-EAD8BBD20156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
