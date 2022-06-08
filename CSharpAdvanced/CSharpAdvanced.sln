@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniParking", "SoftUniPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPlan", "MealPlan\MealPlan.csproj", "{202C17FC-EAD8-443C-A06C-8B0E90125507}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruffleHunter", "TruffleHunter\TruffleHunter.csproj", "{21B98631-1D6E-4BC9-B917-98E2E1568C65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{202C17FC-EAD8-443C-A06C-8B0E90125507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202C17FC-EAD8-443C-A06C-8B0E90125507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202C17FC-EAD8-443C-A06C-8B0E90125507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B98631-1D6E-4BC9-B917-98E2E1568C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B98631-1D6E-4BC9-B917-98E2E1568C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B98631-1D6E-4BC9-B917-98E2E1568C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B98631-1D6E-4BC9-B917-98E2E1568C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
