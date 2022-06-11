@@ -117,6 +117,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo", "Zoo\Zoo.csproj", "{2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericBoxOfString", "GenericBoxOfString\GenericBoxOfString.csproj", "{36D084EE-66C6-47D6-9347-6CA6106F0F37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Tuple\Tuple.csproj", "{5E34998C-8D48-47CF-8440-B06669D735D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,10 @@ Global
 		{36D084EE-66C6-47D6-9347-6CA6106F0F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D084EE-66C6-47D6-9347-6CA6106F0F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D084EE-66C6-47D6-9347-6CA6106F0F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E34998C-8D48-47CF-8440-B06669D735D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E34998C-8D48-47CF-8440-B06669D735D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E34998C-8D48-47CF-8440-B06669D735D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E34998C-8D48-47CF-8440-B06669D735D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
