@@ -8,8 +8,9 @@ namespace Zoo
     public class Zoo
     {
         public List<Animal> Animals;
-        public string Name;
-        private readonly int Capacity;
+
+        public string Name { get; set; }
+        private int Capacity { get; set; }
 
         public Zoo(string name, int capacity)
         {
