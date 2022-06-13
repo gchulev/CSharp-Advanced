@@ -12,6 +12,7 @@ namespace CustomDoublyLinkedList
             linkedList.AddFirst(3);
             linkedList.AddLast(4);
 
+            var listArray = linkedList.ToArray();
 
             Console.WriteLine($"Head -> {linkedList.Head.Value}");
             Console.WriteLine($"Tail -> {linkedList.Tail.Value}");

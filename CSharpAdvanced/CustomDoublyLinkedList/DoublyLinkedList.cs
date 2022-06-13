@@ -108,6 +108,19 @@ namespace CustomDoublyLinkedList
             return list;
         }
 
+        public T[] ToArray()
+        {
+            T[] array = new T[this.Count];
+            var currentVal = Head.Value;
+
+            for (int i = 0; i < this.Count; i++)
+            {
+                array[i] = currentVal;
+                currentVal = Head.NextNode.Value;
+            }
+            return array;
+
+        }
         public class ListNode
         {
             public T Value { get; set; }
