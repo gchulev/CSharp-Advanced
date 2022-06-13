@@ -6,7 +6,7 @@ namespace CustomDoublyLinkedList
     {
         static void Main()
         {
-            DoublyLinkedList linkedList = new DoublyLinkedList();
+            DoublyLinkedList<int> linkedList = new DoublyLinkedList<int>();
             linkedList.AddFirst(1);
             linkedList.AddFirst(2);
             linkedList.AddFirst(3);

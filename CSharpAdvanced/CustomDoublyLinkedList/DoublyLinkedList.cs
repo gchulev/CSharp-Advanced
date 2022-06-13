@@ -4,13 +4,13 @@ using System.Text;
 
 namespace CustomDoublyLinkedList
 {
-    public class DoublyLinkedList
+    public class DoublyLinkedList<T>
     {
         public int Count { get; private set; }
         public ListNode Head { get; private set; }
         public ListNode Tail { get; private set; }
 
-        public void AddFirst(int element)
+        public void AddFirst(T element)
         {
             if (this.Count == 0)
             {
@@ -26,7 +26,7 @@ namespace CustomDoublyLinkedList
             this.Count++;
         }
 
-        public void AddLast(int element)
+        public void AddLast(T element)
         {
 
             if (this.Count == 0)
@@ -44,7 +44,7 @@ namespace CustomDoublyLinkedList
             this.Count++;
         }
 
-        public int RemoveFirst()
+        public T RemoveFirst()
         {
             if (this.Count == 0)
             {
@@ -66,7 +66,7 @@ namespace CustomDoublyLinkedList
             return firstElement;
         }
 
-        public int RemoveLast()
+        public T RemoveLast()
         {
             if (this.Count == 0)
             {
@@ -90,7 +90,7 @@ namespace CustomDoublyLinkedList
             return lastElement;
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             var currentNode = this.Head;
 
@@ -101,20 +101,20 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public List<int> ToList(int num)
+        public List<T> ToList()
         {
-            List<int> list = new List<int>();
+            List<T> list = new List<T>();
             this.ForEach(n => list.Add(n));
             return list;
         }
 
         public class ListNode
         {
-            public int Value { get; set; }
+            public T Value { get; set; }
             public ListNode NextNode { get; set; }
             public ListNode PreviousNode { get; set; }
 
-            public ListNode(int value)
+            public ListNode(T value)
             {
                 this.Value = value;
             }
