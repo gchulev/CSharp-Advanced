@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace CustomDoublyLinkedList
+{
+    internal class StartUp
+    {
+        static void Main()
+        {
+
+        }
+    }
+}

@@ -7,10 +7,10 @@ namespace Zoo
 {
     public class Zoo
     {
-        public List<Animal> Animals;
+        public List<Animal> Animals { get; set; }
 
         public string Name { get; set; }
-        private int Capacity { get; set; }
+        public int Capacity { get; set; }
 
         public Zoo(string name, int capacity)
         {
