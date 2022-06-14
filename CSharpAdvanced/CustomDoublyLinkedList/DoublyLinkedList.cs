@@ -108,7 +108,6 @@ namespace CustomDoublyLinkedList
         public T[] ToArray()
         {
             T[] array = new T[this.Count];
-            var currentVal = Head.Value;
             int counter = 0;
             var currentNode = this.Head;
 
