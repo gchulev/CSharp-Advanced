@@ -27,7 +27,7 @@ namespace GenericBoxOfString
             return $"{_data.GetType()}: {_data}";
         }
 
-        public static int GetValuesGreaterThan<T>(List<T> inputList, T element) where T : IComparable<T>
+        public static int GetValuesGreaterThan<U>(List<U> inputList, U element) where U : IComparable<U>
         {
             return inputList.Count(item => item.CompareTo(element) > 0);
         }
