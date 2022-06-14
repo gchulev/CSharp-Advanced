@@ -35,10 +35,9 @@ namespace CustomDoublyLinkedList
             }
             else
             {
-                var previousTail = this.Tail;
                 var newTail = new ListNode(element);
                 newTail.PreviousNode = this.Tail;
-                this.Tail.PreviousNode = newTail;
+                this.Tail.NextNode = newTail;
                 this.Tail = newTail;
             }
             this.Count++;
@@ -54,7 +53,7 @@ namespace CustomDoublyLinkedList
             var firstElement = this.Head.Value;
             this.Head = this.Head.NextNode;
 
-            if (Head != null)
+            if (this.Head != null)
             {
                 this.Head.PreviousNode = null;
             }
@@ -110,15 +109,19 @@ namespace CustomDoublyLinkedList
         {
             T[] array = new T[this.Count];
             var currentVal = Head.Value;
+            int counter = 0;
+            var currentNode = this.Head;
 
-            for (int i = 0; i < this.Count; i++)
+            while (currentNode != null)
             {
-                array[i] = currentVal;
-                currentVal = Head.NextNode.Value;
+                array[counter] = currentNode.Value;
+                currentNode = currentNode.NextNode;
+                counter++;
             }
+            
             return array;
-
         }
+
         public class ListNode
         {
             public T Value { get; set; }

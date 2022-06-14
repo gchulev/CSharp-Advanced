@@ -11,6 +11,8 @@ namespace CustomDoublyLinkedList
             linkedList.AddFirst(2);
             linkedList.AddFirst(3);
             linkedList.AddLast(4);
+            linkedList.AddLast(5);
+            linkedList.RemoveLast();
 
             var listArray = linkedList.ToArray();
 
