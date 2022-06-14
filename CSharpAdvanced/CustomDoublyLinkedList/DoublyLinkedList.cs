@@ -74,17 +74,15 @@ namespace CustomDoublyLinkedList
             }
 
             var lastElement = this.Tail.Value;
+            this.Tail = this.Tail.PreviousNode;
 
-            if (this.Tail.PreviousNode == null)
+            if (this.Tail != null)
             {
-                this.Tail = this.Head = null;
+                this.Tail.NextNode = null;
             }
             else
             {
-                this.Tail.NextNode = null;
-                this.Tail.PreviousNode = null;
-
-                this.Tail = this.Tail.PreviousNode;
+                this.Head = null;
             }
             Count--;
             return lastElement;
