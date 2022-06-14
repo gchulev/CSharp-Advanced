@@ -13,7 +13,6 @@ namespace ListyIterator
             while (true)
             {
                 List<string> input = Console.ReadLine().Split().ToList();
-                //string[] input = Console.ReadLine().Split();
                 string command = input[0];
 
                 if (command.Equals("END"))
@@ -44,6 +43,14 @@ namespace ListyIterator
                 else if (command.Equals("HasNext"))
                 {
                     Console.WriteLine(listIterator.HasNext());
+                }
+                else if (command.Equals("PrintAll"))
+                {
+                    if (listIterator.Items.Count == 0)
+                    {
+                        throw new InvalidOperationException("Invalid Operation!");
+                    }
+                    Console.WriteLine(string.Join(' ', listIterator));
                 }
             }
 
