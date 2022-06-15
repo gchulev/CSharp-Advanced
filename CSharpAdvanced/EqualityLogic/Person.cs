@@ -37,12 +37,12 @@ namespace EqualityLogic
                 return false;
             }
             Person p = (Person)obj;
-            return p.Name.ToLower() == Name.ToLower() && p.Age == Age;
+            return p.Name == Name && p.Age == Age;
         }
 
         public override int GetHashCode()
         {
-            return this.Name.ToLower().GetHashCode() ^ this.Age.GetHashCode();
+            return this.Name.GetHashCode() ^ this.Age.GetHashCode();
         }
     }
 }
