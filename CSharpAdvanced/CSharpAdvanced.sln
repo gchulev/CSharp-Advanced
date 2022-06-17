@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomComparator", "CustomC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeaverAtWork", "BeaverAtWork\BeaverAtWork.csproj", "{9A5A7DE9-FB2D-4DA0-B1BA-8B2E468B64B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryShop", "BakeryShop\BakeryShop.csproj", "{30319A2D-24F5-4795-BA5A-171EC04A3ADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +413,10 @@ Global
 		{9A5A7DE9-FB2D-4DA0-B1BA-8B2E468B64B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5A7DE9-FB2D-4DA0-B1BA-8B2E468B64B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5A7DE9-FB2D-4DA0-B1BA-8B2E468B64B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30319A2D-24F5-4795-BA5A-171EC04A3ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30319A2D-24F5-4795-BA5A-171EC04A3ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30319A2D-24F5-4795-BA5A-171EC04A3ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30319A2D-24F5-4795-BA5A-171EC04A3ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
