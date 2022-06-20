@@ -65,7 +65,7 @@ namespace FishingNet
 
         public string Report()
         {
-            return $"Into the: {Material}: {Environment.NewLine}{string.Join(Environment.NewLine, this.Fish.OrderByDescending(x => x.Length))}";
+            return $"Into the {Material}:{Environment.NewLine}{string.Join(Environment.NewLine, this.Fish.OrderByDescending(x => x.Length))}";
         }
     }
 }
