@@ -143,6 +143,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishingNet", "FishingNet\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blacksmith", "Blacksmith\Blacksmith.csproj", "{23D18A03-3730-4448-88DC-DA40CD595838}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armory", "Armory\Armory.csproj", "{B13B424C-306B-4F94-95AC-ED9A2CA6BB17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -429,6 +431,10 @@ Global
 		{23D18A03-3730-4448-88DC-DA40CD595838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23D18A03-3730-4448-88DC-DA40CD595838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23D18A03-3730-4448-88DC-DA40CD595838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13B424C-306B-4F94-95AC-ED9A2CA6BB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13B424C-306B-4F94-95AC-ED9A2CA6BB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13B424C-306B-4F94-95AC-ED9A2CA6BB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13B424C-306B-4F94-95AC-ED9A2CA6BB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
