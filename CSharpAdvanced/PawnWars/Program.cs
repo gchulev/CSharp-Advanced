@@ -89,7 +89,7 @@ namespace PawnWars
                 }
             }
 
-            //PrintChessboard();
+            PrintChessboard();
 
             (int rowCapture, int colCapture) CapturedEnemyPawn(int currentPawnRow, int currentPawnCol, bool pawnTurn)
             {
