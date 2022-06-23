@@ -161,6 +161,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreetRacing", "StreetRacin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterchef", "Masterchef\Masterchef.csproj", "{C57BBC4F-A6B3-4B38-9C42-931E4E404CED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survivor", "Survivor\Survivor.csproj", "{F190472A-475B-4E56-922C-4C0A9176EF19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{C57BBC4F-A6B3-4B38-9C42-931E4E404CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C57BBC4F-A6B3-4B38-9C42-931E4E404CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C57BBC4F-A6B3-4B38-9C42-931E4E404CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F190472A-475B-4E56-922C-4C0A9176EF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F190472A-475B-4E56-922C-4C0A9176EF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F190472A-475B-4E56-922C-4C0A9176EF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F190472A-475B-4E56-922C-4C0A9176EF19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
