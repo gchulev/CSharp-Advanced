@@ -155,6 +155,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket", "StockMarket\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCelebration", "BirthdayCelebration\BirthdayCelebration.csproj", "{6025173F-B55E-4C9A-BB28-FC2F8551D22F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBattleOfTheFiveArmies", "TheBattleOfTheFiveArmies\TheBattleOfTheFiveArmies.csproj", "{C0BDC8FF-B702-4E65-BBCE-84027A8C3488}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +467,10 @@ Global
 		{6025173F-B55E-4C9A-BB28-FC2F8551D22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6025173F-B55E-4C9A-BB28-FC2F8551D22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6025173F-B55E-4C9A-BB28-FC2F8551D22F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BDC8FF-B702-4E65-BBCE-84027A8C3488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BDC8FF-B702-4E65-BBCE-84027A8C3488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BDC8FF-B702-4E65-BBCE-84027A8C3488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BDC8FF-B702-4E65-BBCE-84027A8C3488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
