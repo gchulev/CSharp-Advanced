@@ -223,7 +223,7 @@ namespace Re_Volt
                             {
                                 playerFinished = true;
                             }
-                            map[playerRowCoordinate, playerColCoordinate] = 'f'; //the player is placed at the last row since this is 'up' command and the opposite is down.
+                            map[playerRowCoordinate, playerColCoordinate] = 'f';
                         }
                         break;
                     default:
