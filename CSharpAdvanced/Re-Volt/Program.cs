@@ -52,6 +52,10 @@ namespace Re_Volt
                                     map[playerRowCoordinate, playerColCoordinate] = '-'; //moving the player from its original possition
                                     playerRowCoordinate = playerNewRowCoordinate - 1;
                                     playerColCoordinate = playerNewColCoordinate;
+                                    if (map[playerRowCoordinate, playerColCoordinate] == 'F')
+                                    {
+                                        playerFinished = true;
+                                    }
                                     map[playerRowCoordinate, playerColCoordinate] = 'f'; //placing the player to the new possition with the new coordinates
                                 }
                                 else
@@ -101,6 +105,10 @@ namespace Re_Volt
                                     map[playerRowCoordinate, playerColCoordinate] = '-'; //moving the player from its original possition
                                     playerRowCoordinate = playerNewRowCoordinate + 1;
                                     playerColCoordinate = playerNewColCoordinate;
+                                    if (map[playerRowCoordinate, playerColCoordinate] == 'F')
+                                    {
+                                        playerFinished = true;
+                                    }
                                     map[playerRowCoordinate, playerColCoordinate] = 'f'; //placing the player to the new possition with the new coordinates
                                 }
                                 else
@@ -154,6 +162,10 @@ namespace Re_Volt
                                 {
                                     map[playerRowCoordinate, playerColCoordinate] = '-'; //clearing player's initial possition
                                     playerColCoordinate = map.GetLength(1) - 1; //moving the player at the oppsite possition of where he started
+                                    if (map[playerRowCoordinate, playerColCoordinate] == 'F')
+                                    {
+                                        playerFinished = true;
+                                    }
                                     map[playerRowCoordinate, playerColCoordinate] = 'f'; //the player is placed at the start of the column since this is 'down' command
                                 }
                             }
@@ -204,6 +216,10 @@ namespace Re_Volt
 
                                     playerColCoordinate = 0; //moving the player at the oppsite possition of where he started
 
+                                    if (map[playerRowCoordinate, playerColCoordinate] == 'F')
+                                    {
+                                        playerFinished = true;
+                                    }
                                     map[playerRowCoordinate, playerColCoordinate] = 'f'; //the player is placed at the start of the column since this is 'down' command
                                 }
                             }
