@@ -68,7 +68,6 @@ namespace WallDestroyer
                 }
                 if (isElectrocuted)
                 {
-                    //check if we have to do stuff rist!!!
                     break;
                 }
             }
